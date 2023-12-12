@@ -17,6 +17,31 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
+## Folder structure
+```text
+/
+├── public/
+│   └── favicon.svg
+├── src/
+│   ├── components/
+│   │   └── Navbar.astro
+│   │   └── icons/
+│   │       └── SupabaseIcon.astro
+│   │       └── AstroIcon.astro
+│   ├── layouts/
+│   │   └── Layout.astro
+│   ├── middelware/
+│   │   └── middelware.ts
+│   └── pages/
+│       └── index.astro
+│       └── 404.astro
+│       └── register.astro
+│       └── signin.astro
+│       └── signout.astro
+│       └── api/auth/
+│           └── register.ts
+│           └── signin.ts
+│           └── signout.ts
+└── package.json
+```
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
